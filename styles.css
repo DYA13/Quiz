@@ -1,0 +1,106 @@
+body {
+background-image: url("ffoto1.jpg");
+background-size: cover;
+background-position: center;
+
+}
+
+#heading {
+display: flex;
+justify-content: center;
+border: 1px solid black;
+
+background-image: linear-gradient(to right, rgb(226, 146, 146),rgb(236, 198, 127),rgb(241, 241, 124),rgb(126, 243, 126),rgb(182, 182, 241),rgb(206, 153, 245),violet);
+padding: 10px;
+}
+#head {
+    color: black;
+    font-size: 60px;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5ece7;
+    justify-content: center;
+   flex-wrap: wrap;
+    width: 700px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+#container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+
+#block {
+padding: 20px;
+margin: 20px;
+
+}
+
+
+label {
+font-size: 20px;
+}
+#btn {
+font-size: 25px;
+width: 80%;
+border-radius: 30px;
+align-self: center;
+
+}
+#show {
+    font-size: 25px;
+    align-self: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+input[type='radio']:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #d1d3d1;
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='radio']:checked:after +.green {
+    width: 20px;
+    height: 0px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #15ff00;
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.green {
+    color: #15ff00;
+    }
+    
+@media all and (max-width: 500px){
+ body {
+     margin: 0;
+  }
+    #head {
+    font-size: 40px;
+}
+#heading{
+    width: 100%;
+margin-right: 0;
+
+   
+
+   
+}
+}
